@@ -10,4 +10,4 @@
 
 function factorial(int) {}
 
-module.exports = factorial;
+module.exports = factorial; 
