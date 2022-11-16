@@ -1,11 +1,11 @@
+let in1 = [4, 55, "850", 729, "40", 6];
+
 function getLargestNumber(array) {
-  let largestNumber;
-  for (let i = 0; i < array.length - 1; i++) {
-    if (array[i] > array[i + 1]) {
-      largestNumber = array[i];
-    }
-  }
-  return largestNumber;
+  let sortedArr = array.sort();
+  return sortedArr[sortedArr.length - 1];
 }
+
+
+console.log(getLargestNumber(in1));
 
 module.exports = getLargestNumber;
