@@ -20,5 +20,4 @@ function factorial(int) {
     };
 };
 
-
 module.exports = factorial; 
