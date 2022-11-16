@@ -9,7 +9,12 @@ function removeVowels(word) {
       character !== "o" &&
       character !== "i" &&
       character !== "e" &&
-      character !== "u"
+      character !== "u" &&
+      character !== "A" &&
+      character !== "E" &&
+      character !== "I" &&
+      character !== "O" &&
+      character !== "U"
     ) {
       result.push(character);
     }
@@ -27,3 +32,4 @@ module.exports = removeVowels;
 
   what is the value of result?
 */
+console.log(removeVowels("AMY"))
