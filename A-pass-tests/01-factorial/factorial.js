@@ -16,7 +16,7 @@ function factorial(int) {
         };
         return result;
     } else {
-        return 1;
+        return 1; 
     };
 };
 
